@@ -2,7 +2,7 @@
 
 ## CodeBook.md
 
-This is a code book that describes the variables, the data, and the data transformations work I performed to clean up the orginal data set given in the project description. 
+This is a code book that describes the source of the data, the variables in the transformed data set, and the data transformations I performed to clean up the orginal data set given in the project description. 
 
 ## run_analysis.R 
 
