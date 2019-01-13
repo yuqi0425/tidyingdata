@@ -1,6 +1,6 @@
-#Data
+# Data
 
-##Data Set Information##
+## Data Set Information
 
 Data is from a Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
@@ -8,18 +8,18 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
-###Link to the Original Data Set###
+### Link to the Original Data Set
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-#Variables#
+# Variables
 
-##Identifier## 
+## Identifier 
 
-###subject### 
+### subject 
 This variable takes the values 1 to 30, each stand for one of the volunteers 
 
-###activity###
+### activity
 This variable specifies what activity the subject was doing, it takes the following six values. 
 
 WALKING
@@ -29,7 +29,7 @@ SITTING
 STANDING
 LAYING
 
-##Feature Variables (Average Measurement)##
+## Feature Variables (Average Measurement)
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -40,7 +40,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-###The Feature Variables###
+### The Feature Variables
 
 The following 79 variables belong to this classs of variables, in each case the average measurement for each identifier (unique subject activity combination), across a number of measurements, is the value reported. 
 
@@ -124,7 +124,7 @@ The following 79 variables belong to this classs of variables, in each case the 
 "fBodyBodyGyroJerkMagstd"      
 "fBodyBodyGyroJerkMagmeanFreq"
  
-#Transformations of the Original Data Set# 
+# Transformations of the Original Data Set
 
 1. The training and the test sets were merged to create one data set.
 2. Only the measurements on the mean and standard deviation for each measurement (including mean frequency measurements) were extracted. The result was saved into a new data set. 
