@@ -14,7 +14,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 # Variables
 
-## Identifier 
+## Identifying Variables
 
 ### subject 
 This variable takes the values 1 to 30, each stand for one of the volunteers 
