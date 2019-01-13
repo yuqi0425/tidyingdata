@@ -1,4 +1,4 @@
-# Getting and cleaning data course project files
+# Getting and Cleaning Data Course Project Files
 
 ## CodeBook.md
 
